@@ -1,0 +1,111 @@
+
+.input_section_container{
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-rows: 10% 55% 25% auto;
+}
+
+.title{
+    text-align: center;
+    font-size: 3vh;
+    font-weight: bold;
+    padding-top: 10%;
+    &-ext{
+        font-size: 2.2vh;
+        font-style: italic;
+    }
+
+}
+
+.inputs_holder{
+    display: grid;
+    grid-template-columns: 2fr 2fr; 
+    margin-top: 20%;
+    margin-bottom: 20%;
+    padding: 2%;
+    padding-bottom: 2%;
+    grid-row-gap: 10%;
+    font-size: 2.1vh;
+    font-style: oblique;
+    padding-bottom: 25%;
+    margin-left: 3%;
+}
+
+.label-holder{
+    font-style: oblique;
+    padding-top: 6%;
+    text-align-last: center;
+    text-align: center;
+    &__txt{
+        font-size: 2.1vh;
+    }
+}
+
+.input-holder{
+    margin-left: 10%;
+    &__txt{
+        border-radius: 25px;
+
+width: 59%;
+
+height: 6vh;
+
+padding: 10%;
+
+text-align: center;
+
+font-weight: bold;
+
+color: black;
+
+font-size: 2.2vh;
+    }
+}
+
+
+.button-style{
+    border-radius: 25px;
+    width: 12vh;
+    height: 6vh;  
+    font-style: italic;
+    font-size: 2.1vh;
+    box-shadow: 1px 1px 10px antiquewhite;
+    cursor: pointer;
+    
+    color: black;
+    
+    font-weight: bold;
+    
+    outline: none;
+}
+
+.refresh-container{
+    text-align: center;
+}
+
+.render-container{
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.actions_holder{
+
+}
+
+.infos_holder{
+    text-align: center;
+    font-size: 2.4vh;
+}
+
+.about{
+    color: whitesmoke;
+    
+}
+
+.credits{
+    margin-top: 12px;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+}

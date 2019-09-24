@@ -1,0 +1,9 @@
+.greeting_container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 20% 10px auto;
+}
+
+.separator{
+    background-image: linear-gradient(to left,#f1eaea,#bdb1b1, #444,black);
+}
