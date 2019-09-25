@@ -1,30 +1,26 @@
 import React, { Component } from 'react'
 import "./styles.scss";
 import BasicItemsPagination from "react-basic-items-pagination";
-import HxHBoss from  "../../ressources/HxH-boss.jpg";
-import LawKid from  "../../ressources/Law-Kid.jpg";
-import LuffyQuote from  "../../ressources/Luffy-Punch-Line.jpg";
-import PirateKings from  "../../ressources/Pirate-Kings.jpg";
 
 const mockedData = [
     {
         "title": "HxH Boss",
-        "image": HxHBoss,
+        "image": "https://drive.google.com/uc?export=view&id=10yGAM9xfhj4ZvcO3EqaNKxlwjbk8_MK4",
         "description": "The boss of spider bands in HunterXHunter"
     },
     {
         "title": "Trafalgaw Law Kid",
-        "image": LawKid,
+        "image": "https://drive.google.com/uc?export=view&id=1mK36ueZRjRBv4qoNl_QIVPKiCK0mQ3by",
         "description": "Law Holding his Ope-Ope Devil Fruit"
     },
     {
         "title": "Luffy Quote",
-        "image": LuffyQuote,
+        "image": "https://drive.google.com/uc?export=view&id=1Qrj7qu_JYXYM6ew_NohZJ073P-3-Ta8H",
         "description": "If you don't take risks !\nYou can't create A Future !\nDamn Right :D !"
     },
     {
         "title": "One Piece Pirate Kings",
-        "image": PirateKings,
+        "image": "https://drive.google.com/uc?export=view&id=1GXwccUO6DWgqAmT86zDEK7fuAb4L3a8r",
         "description": "Luffy , Roger and Rayleigh !\n Such Epicness in one picture !"
     }
   ];
